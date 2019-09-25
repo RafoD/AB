@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1568872094 source:c:\users\dell\documents\programacion 2019\ab\main.cpp
+	<iostream>
+	"vigenere.h"
+	"escitala.h"
+
+1568653064 c:\users\dell\documents\programacion 2019\ab\vigenere.h
+	<iostream>
+	<stdio.h>
+	<string>
+	<stdlib.h>
+	<time.h>
+
+1568872675 c:\users\dell\documents\programacion 2019\ab\escitala.h
+	<iostream>
+	<stdio.h>
+	<string>
+	<stdlib.h>
+	<time.h>
+	<fstream>
+

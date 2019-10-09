@@ -1,8 +1,11 @@
 # depslib dependency file v1.0
-1568872094 source:c:\users\dell\documents\programacion 2019\ab\main.cpp
+1570578147 source:c:\users\dell\documents\programacion 2019\ab\main.cpp
 	<iostream>
+	<NTL/ZZ.h>
 	"vigenere.h"
 	"escitala.h"
+	"afin.h"
+	"RSA.h"
 
 1568653064 c:\users\dell\documents\programacion 2019\ab\vigenere.h
 	<iostream>
@@ -11,11 +14,23 @@
 	<stdlib.h>
 	<time.h>
 
-1568872675 c:\users\dell\documents\programacion 2019\ab\escitala.h
+1569867511 c:\users\dell\documents\programacion 2019\ab\escitala.h
 	<iostream>
 	<stdio.h>
 	<string>
 	<stdlib.h>
 	<time.h>
 	<fstream>
+
+1570578309 c:\users\dell\documents\programacion 2019\ab\afin.h
+	<iostream>
+	<string>
+	"funciones.h"
+
+1570276423 c:\users\dell\documents\programacion 2019\ab\funciones.h
+
+1570281256 c:\users\dell\documents\programacion 2019\ab\rsa.h
+	<iostream>
+	<NTL/ZZ.h>
+	<string>
 

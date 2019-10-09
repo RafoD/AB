@@ -32,7 +32,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="RSA.h" />
+		<Unit filename="afin.h" />
+		<Unit filename="enigma.h" />
 		<Unit filename="escitala.h" />
+		<Unit filename="funciones.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="vigenere.h" />
 		<Extensions>

@@ -11,11 +11,11 @@ class Escitala{
     public:
      string mensaje;
      int filas = 3;
-     int columnas = 5;
-     string clave[3][5];
+     int columnas;
      string mCifrado;
      string mDescifrado;
      Escitala();
+     string clave[][5];
      void cifrado();
      void descifrado();
      int stoint(string);
@@ -77,6 +77,8 @@ void Escitala::cifrado(){
     //getline(cin,mensaje);
     mensaje = lectura("mensaje");
     cout<<"Mensaje : "<<mensaje<<endl;
+    columnas = mensaje.length()/filas;
+    //string clave[3][];
     generarClave();
     for(int i = 0,j=0; j<columnas;){
         mCifrado+=clave[i][j];

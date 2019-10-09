@@ -17,6 +17,7 @@ class afin{
 };
 
 afin::afin(){
+    cout<<"Ingresar la clave: "<<endl;
     cin>>a;
     cout<<endl;
     int tam=abc.size();
@@ -38,12 +39,12 @@ string afin::cifrado(string m){
     int x=a;
     if(a>t1)
     {
-        x=moduloE(a,t1);
+        x=ModuloE(a,t1);
     }
     for(int i=0; i<t; i++)
     {
         int n=abc.find(m[i]);
-        int p=moduloE(x*n+b, t1);
+        int p=ModuloE(x*n+b, t1);
         tc=tc+abc[p];
     }
     return tc;
@@ -53,7 +54,7 @@ string afin::descifrado(string tc){
     int y=a;
     if(a>t2)
     {
-        y=moduloE(a,t2);
+        y=ModuloE(a,t2);
     }
     int tam=tc.size();
     string td;
@@ -61,7 +62,7 @@ string afin::descifrado(string tc){
     {
         int n=abc.find(tc[i]);
         //cout<<n<<endl<<endl;
-        int pos=moduloE(y*(n-b), t2);
+        int pos=ModuloE(y*(n-b), t2);
         td+=abc[pos];
     }
     return td;

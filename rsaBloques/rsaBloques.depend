@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1560019434 source:c:\users\dell\documents\programacion 2019\rsabloques\src\rsa.cpp
+	"rsa.h"
+
+1560019434 c:\users\dell\documents\programacion 2019\rsabloques\include\rsa.h
+	"mathfunc.h"
+	<NTL/ZZ.h>
+	<sstream>
+	<string>
+
+1560019434 c:\users\dell\documents\programacion 2019\rsabloques\include\mathfunc.h
+	<NTL/ZZ.h>
+	<vector>
+
+1560020762 source:c:\users\dell\documents\programacion 2019\rsabloques\main.cpp
+	"rsa.h"
+	<NTL/ZZ.h>
+	<iostream>
+	<string>
+	<vector>
+	"mathfunc.h"
+

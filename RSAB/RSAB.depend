@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1574710639 source:c:\users\dell\documents\programacion 2019\algebra abstracta\rsab\main.cpp
+	"RSAB.h"
+	<iostream>
+	<windows.h>
+	<conio.h>
+
+1574708214 source:c:\users\dell\documents\programacion 2019\algebra abstracta\rsab\rsab.cpp
+	"RSAB.h"
+	<NTL/ZZ.h>
+	<sstream>
+	<vector>
+
+1574710616 c:\users\dell\documents\programacion 2019\algebra abstracta\rsab\rsab.h
+	<NTL/ZZ.h>
+	<vector>
+	<string>
+	<fstream>
+	<time.h>
+	<stdlib.h>
+
